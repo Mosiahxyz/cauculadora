@@ -1,0 +1,67 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+
+html, body{ 
+
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+    color: white; /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+
+    height: 100%;
+    width: 100%;
+   
+        
+}
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 50rem;
+    height: 51rem;
+    background-color: #000000;
+
+
+}
+
+input, button{
+
+    width: 30rem;
+    height: 5rem;
+
+}
+
+input{
+
+    margin-bottom: 3rem;
+
+}
+
